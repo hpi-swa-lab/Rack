@@ -3,17 +3,17 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"AngryBirdsEnabled",
-		"PhysicsEnabled" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"object",
-		"isPickedUp",
-		"originPosition",
-		"line",
-		"lastPosition",
-		"speed" ],
-	"name" : "RWorldIcon",
+		"pinButton",
+		"listButton",
+		"filterButton",
+		"sortButton",
+		"isPinned",
+		"displayMode",
+		"pile" ],
+	"name" : "RPileOverview",
 	"pools" : [
 		 ],
 	"super" : "Morph",

@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"polyMorph" ],
+	"name" : "RSelectionMorph",
+	"pools" : [
+		 ],
+	"super" : "SelectionMorph",
+	"type" : "normal" }

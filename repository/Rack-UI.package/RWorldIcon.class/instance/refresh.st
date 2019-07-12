@@ -2,4 +2,4 @@ updating
 refresh
 	
 	self removeAllMorphs.
-	self initializeIconAndText.
+	self initializeIconAndTextWithColor: self contrastColor

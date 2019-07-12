@@ -1,0 +1,13 @@
+as yet unclassified
+addActions
+
+	| buttonGroup |
+	buttonGroup := PHButtonGroup new
+						add: listButton;
+						add: filterButton;
+						add: sortButton;
+						add: pinButton.
+	self addMorph: buttonGroup.
+	buttonGroup
+		resizeToPreferred;
+		position: (self topRight - (buttonGroup width + 5 @ -5))

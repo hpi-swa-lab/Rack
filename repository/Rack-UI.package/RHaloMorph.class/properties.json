@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RHaloMorph",
+	"pools" : [
+		 ],
+	"super" : "HaloMorph",
+	"type" : "normal" }

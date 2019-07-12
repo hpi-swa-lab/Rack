@@ -1,0 +1,16 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"domainObject",
+		"isVisible",
+		"timeAdded" ],
+	"name" : "RPileObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text",
+		"content" ],
+	"name" : "RPile",
+	"pools" : [
+		 ],
+	"super" : "RWorldIcon",
+	"type" : "normal" }
