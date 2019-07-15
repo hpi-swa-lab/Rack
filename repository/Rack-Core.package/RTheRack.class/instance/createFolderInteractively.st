@@ -3,4 +3,6 @@ createFolderInteractively
 	
 	<rackOperationLabel: 'create folder' inContextMenus: true>
 	
-	^ hierarchy createFolderInteractively
+	| folderName |
+	folderName := self requestFolderName.
+	self createFolder: folderName.

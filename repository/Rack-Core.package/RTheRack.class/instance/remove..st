@@ -1,4 +1,4 @@
 modifying
-remove: itemLabel
+remove: anItem
 
-	^ hierarchy remove: itemLabel
+	^ hierarchy remove: anItem

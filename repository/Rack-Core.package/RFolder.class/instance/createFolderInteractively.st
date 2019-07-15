@@ -4,5 +4,5 @@ createFolderInteractively
 	<rackOperationLabel: 'create folder' inContextMenus: true>
 	
 	| folderName |
-	folderName := [self requestFolderName] on: RInvalidFolderName do: [^ false].
+	folderName := self requestFolderName.
 	self createFolder: folderName.

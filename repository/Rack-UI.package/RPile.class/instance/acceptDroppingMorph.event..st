@@ -5,6 +5,4 @@ acceptDroppingMorph: aMorph event: anEvent
 		self addItem: aMorph object.
 		aMorph delete].
 	
-	self 
-		updateIcon;
-		updateText
+	self refresh

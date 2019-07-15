@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeButtons
 
 	pinButton := (PHButton icon: #iconThumb_tack)

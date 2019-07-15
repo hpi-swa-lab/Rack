@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isPinned: aBoolean
 
 	isPinned := aBoolean

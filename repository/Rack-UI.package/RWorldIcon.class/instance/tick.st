@@ -8,13 +8,10 @@ tick
 	
 	self position: self position + self speed.
 	self speed: self decayedSpeed.
+	self ensurePositionInScreen.
 	
 	self speed < 1 asPoint ifTrue: [
-		self
+		^ self
+			stopStepping;
 			addToPileIfNearby;
-			stopStepping ].
-	
-	(self world bounds containsRect: self bounds) ifFalse: [ 
-		self position: self ensurePositionInScreen.
-		self refresh.
-	]
+			yourself].

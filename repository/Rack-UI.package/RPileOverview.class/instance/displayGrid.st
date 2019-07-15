@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 displayGrid
 
 	self extent: self gridExtent.

@@ -1,14 +1,15 @@
 {
-	"category" : "Rack-Core",
+	"category" : "Rack-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RInvalidFolderName",
+		"text",
+		"textMorph" ],
+	"name" : "RPostIt",
 	"pools" : [
 		 ],
-	"super" : "Error",
+	"super" : "RWorldIcon",
 	"type" : "normal" }

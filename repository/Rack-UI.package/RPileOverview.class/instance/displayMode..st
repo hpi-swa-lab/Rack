@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 displayMode: aSymbol
 
 	displayMode := aSymbol

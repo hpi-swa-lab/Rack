@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 gridExtent
 
 	^ self gridPadding asPoint * 2 +
