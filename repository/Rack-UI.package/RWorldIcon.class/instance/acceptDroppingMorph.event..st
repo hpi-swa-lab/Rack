@@ -1,4 +1,4 @@
-layout
+event handling
 acceptDroppingMorph: aMorph event: anEvent
 
 	aMorph class = RWorldIcon ifTrue: [ 

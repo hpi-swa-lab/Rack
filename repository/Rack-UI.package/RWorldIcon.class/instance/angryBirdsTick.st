@@ -1,4 +1,4 @@
-as yet unclassified
+physics
 angryBirdsTick
 
 	isPickedUp ifTrue: [

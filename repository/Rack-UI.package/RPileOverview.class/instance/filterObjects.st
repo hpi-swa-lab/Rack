@@ -1,7 +1,8 @@
 actions
 filterObjects
 
-	^ UIManager default
-		edit: '[:item | item domainObject ]'
-		label: 'Filer Objects'
-		accept: [:value | self filterBy: value]
+	self filterBy: self pile filterString.
+	self pile filterString ifNil: [
+		filterButton addApplicationStyles: (PHStyle forAny color: Color black; yourself).
+		^ self].
+	filterButton addApplicationStyles: (PHStyle forAny color: Color paleGreen; yourself)

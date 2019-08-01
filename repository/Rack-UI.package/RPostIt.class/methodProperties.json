@@ -5,9 +5,12 @@
 		"addTextMorph" : "lcj 7/13/2019 15:38",
 		"extendByHand:" : "lcj 7/13/2019 15:10",
 		"fontSize" : "lcj 7/13/2019 19:13",
-		"initialize" : "lcj 7/13/2019 17:23",
+		"handleKeystroke:" : "lcj 7/30/2019 18:15",
+		"handlesKeyboard:" : "lcj 7/30/2019 18:13",
+		"initialize" : "lcj 7/30/2019 18:20",
 		"initializeIconAndTextWithColor:" : "lcj 7/13/2019 15:38",
 		"isPile" : "lcj 7/13/2019 14:57",
 		"refreshWithColor:" : "lcj 7/13/2019 15:38",
+		"text" : "lcj 7/30/2019 18:26",
 		"textMorph" : "lcj 7/13/2019 14:20",
 		"textMorph:" : "lcj 7/13/2019 14:20" } }

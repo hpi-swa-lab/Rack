@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
@@ -8,4 +8,5 @@ initialize
 	self
 		object: HPostIt new;
 		color: Color lightYellow;
-		addTextMorph
+		addTextMorph.
+	self object text: ''

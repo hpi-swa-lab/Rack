@@ -12,3 +12,4 @@ initializeIconAndTextWithColor: aColor
 	self addMorph: textMorph.
 	textMorph position: self position + (((iconMorph width / 2) - (textMorph width / 2))@iconMorph height).
 	textMorph textColor: aColor.
+	self extent: iconMorph extent

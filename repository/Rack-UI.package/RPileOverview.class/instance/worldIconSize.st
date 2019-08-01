@@ -1,4 +1,4 @@
-as yet unclassified
+ui  constants
 worldIconSize
 
 	^ 60

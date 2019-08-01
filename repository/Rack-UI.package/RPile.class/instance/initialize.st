@@ -2,4 +2,5 @@ initialization
 initialize
 
 	object := OrderedCollection new.
-	super initialize
+	super initialize.
+	"self ensurePositionInScreen"

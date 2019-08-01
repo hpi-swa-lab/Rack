@@ -1,4 +1,4 @@
-as yet unclassified
+physics
 startTicking
 
 	self startSteppingSelector: (self class angryBirdsEnabled

@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 addTextMorph
 	
 	textMorph ifNotNil: [

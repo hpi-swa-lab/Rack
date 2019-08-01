@@ -1,4 +1,4 @@
-instance creation
+preferences
 physicsEnabled
 	<preference: 'Activate Physics for World Icons'
 		category: 'RWorldIcon'

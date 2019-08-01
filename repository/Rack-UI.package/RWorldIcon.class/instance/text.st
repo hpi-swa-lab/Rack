@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 text
 	
 	^ self object worldIconText

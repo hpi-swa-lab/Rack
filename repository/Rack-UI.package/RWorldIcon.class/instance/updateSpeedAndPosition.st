@@ -1,4 +1,4 @@
-as yet unclassified
+physics
 updateSpeedAndPosition
 
 	lastPosition ifNotNil: [self speed: (self owner position - lastPosition)].

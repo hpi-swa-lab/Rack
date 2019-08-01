@@ -12,7 +12,8 @@
 		"sortButton",
 		"isPinned",
 		"displayMode",
-		"pile" ],
+		"pile",
+		"resetButton" ],
 	"name" : "RPileOverview",
 	"pools" : [
 		 ],

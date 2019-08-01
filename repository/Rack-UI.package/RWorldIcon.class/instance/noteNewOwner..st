@@ -1,4 +1,4 @@
-as yet unclassified
+submorphs-accessing
 noteNewOwner: aMorph
 
 	aMorph isHandMorph ifTrue: [

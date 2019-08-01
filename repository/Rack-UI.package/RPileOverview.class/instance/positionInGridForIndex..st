@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 positionInGridForIndex: index
 
 	| x y |

@@ -1,4 +1,4 @@
-as yet unclassified
+add/remove
 addItem: anItem
 
 	self	pile addItem: anItem.

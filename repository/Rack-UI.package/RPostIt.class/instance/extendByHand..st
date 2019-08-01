@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 extendByHand: aHand
 	"Assumes selection has just been created and added to some pasteUp or world"
 	| startPoint handle |

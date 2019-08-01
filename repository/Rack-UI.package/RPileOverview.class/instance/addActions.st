@@ -4,6 +4,7 @@ addActions
 	| buttonGroup |
 	buttonGroup := PHButtonGroup new
 						add: listButton;
+						add: resetButton;
 						add: filterButton;
 						add: sortButton;
 						add: pinButton.

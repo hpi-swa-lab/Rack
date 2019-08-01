@@ -3,4 +3,4 @@ mouseLeave: evt
 
 	self isPinned ifFalse: [
 		self pile show.
-		self delete]
+		self deleteOnlySelf]

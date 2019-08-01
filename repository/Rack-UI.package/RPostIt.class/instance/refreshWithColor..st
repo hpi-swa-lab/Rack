@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 refreshWithColor: aColor
 
 	super refreshWithColor: aColor.

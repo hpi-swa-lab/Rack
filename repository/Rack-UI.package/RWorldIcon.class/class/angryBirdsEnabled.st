@@ -1,4 +1,4 @@
-instance creation
+preferences
 angryBirdsEnabled
 	<preference: 'Select type of physics for World Icons'
 		category: 'RWorldIcon'

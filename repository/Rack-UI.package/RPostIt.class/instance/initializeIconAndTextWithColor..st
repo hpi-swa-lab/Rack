@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeIconAndTextWithColor: aColor
 
 	super initializeIconAndTextWithColor: aColor.

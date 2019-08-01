@@ -1,4 +1,4 @@
-as yet unclassified
+private
 selectSubmorphsOf: aMorph
 	"Given the receiver's current bounds, select submorphs of the indicated pasteup morph that fall entirely within those bounds.  If nobody is within the bounds, delete the receiver."
 

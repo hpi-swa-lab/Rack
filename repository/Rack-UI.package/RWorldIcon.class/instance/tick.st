@@ -1,4 +1,4 @@
-as yet unclassified
+physics
 tick
 	
 	isPickedUp ifTrue: [
@@ -9,6 +9,7 @@ tick
 	self position: self position + self speed.
 	self speed: self decayedSpeed.
 	self ensurePositionInScreen.
+	self checkForCollisions.
 	
 	self speed < 1 asPoint ifTrue: [
 		^ self

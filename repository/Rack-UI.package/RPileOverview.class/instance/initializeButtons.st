@@ -8,7 +8,10 @@ initializeButtons
 		when: #clicked send: #toggleDisplay to: self.
 		
 	filterButton := (PHButton icon: #iconFilter)
-		when: #clicked send: #filterObjects to: self.
+		when: #clicked send: #openFilterDialog to: self.
 		
 	sortButton := (PHButton icon: #iconSort)
-		when: #clicked send: #sortObjects to: self
+		when: #clicked send: #openSortDialog to: self.
+		
+	resetButton := (PHButton icon: #iconUndo)
+		when: #clicked send: #reset to: self

@@ -1,4 +1,4 @@
-as yet unclassified
+physics
 decayedSpeed
 
 	^ self speed * 0.8.

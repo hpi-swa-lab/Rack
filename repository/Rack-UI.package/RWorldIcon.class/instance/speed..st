@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 speed: aPoint
 
 	speed := aPoint

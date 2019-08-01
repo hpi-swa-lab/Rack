@@ -1,8 +1,8 @@
 actions
-filterBy: aBlock
+filterBy: aBlockString
 
-	| block |
-	block := (Compiler evaluate: aBlock).
-	self pile object select: [:each | (block value: each) not] thenDo: [:each | each isVisible: false].
-	self pile object select: block thenDo: [:each | each isVisible: true].
+	| block safeBlock |
+	block := aBlockString ifNil: [[:each | true]] ifNotNil: [Compiler evaluate: aBlockString].
+	safeBlock :=  [:each| [block value: each] on: Error do: [false]].
+	self pile object do: [:each | each isVisible: (safeBlock value: each)].
 	self displayItems

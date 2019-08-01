@@ -1,4 +1,4 @@
-as yet unclassified
+ui  constants
 textPadding
 
 	^ 80
