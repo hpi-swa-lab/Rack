@@ -21,6 +21,6 @@ angryBirdsTick
 		self stopStepping].
 	
 	(self world bounds containsRect: self bounds) ifFalse: [ 
-		self position: self ensurePositionInScreen.
+		self ensurePositionInScreen.
 		self initializeIconAndText.
 		self stopStepping]

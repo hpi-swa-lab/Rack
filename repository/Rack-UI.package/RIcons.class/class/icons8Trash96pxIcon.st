@@ -1,0 +1,8 @@
+travel  - accessing
+icons8Trash96pxIcon
+	"Auto-generated.
+	Icon 8 ©2018
+	Website: https://icons8.com/license
+	License: https://creativecommons.org/licenses/by-nd/3.0/"
+	^ Icons at: #icon8Icons8Trash96px
+	ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self icons8Trash96pxIconContents readStream) ].

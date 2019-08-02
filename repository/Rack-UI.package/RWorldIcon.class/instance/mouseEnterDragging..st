@@ -1,4 +1,5 @@
 event handling
 mouseEnterDragging: anEvent
 
-	self refreshWithColor: Color red
+	anEvent hand hasSubmorphs and: [anEvent hand firstSubmorph isWorldIcon ifTrue: [
+		self refreshWithColor: Color red]]
