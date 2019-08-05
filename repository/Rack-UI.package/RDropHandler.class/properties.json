@@ -1,8 +1,7 @@
 {
 	"category" : "Rack-UI",
 	"classinstvars" : [
-		"isModifierPressed",
-		"shouldBeListening" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

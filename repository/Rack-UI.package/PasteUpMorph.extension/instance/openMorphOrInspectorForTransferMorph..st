@@ -2,8 +2,11 @@
 openMorphOrInspectorForTransferMorph: transferMorph
 
 	| newMorph |
-	newMorph := transferMorph source owner = self
-		ifTrue: [transferMorph source abandon.
+	newMorph := (transferMorph source owner = self and:[transferMorph shouldMove])
+		"move the object"
+		ifTrue: [
+			transferMorph source abandon.
 				transferMorph source]
-		ifFalse: [transferMorph passenger worldIcon].
+		"work on a copy of it"
+		ifFalse: [transferMorph passenger dropObjectAndOpenMenu: transferMorph shouldMove not].
 	^ newMorph
