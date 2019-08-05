@@ -1,0 +1,3 @@
+*Rack-UI
+containsViewableImage
+	^false.

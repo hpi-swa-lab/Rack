@@ -3,7 +3,7 @@ initializeIconAndTextWithColor: aColor
 
 	| iconMorph textMorph text |
 	iconMorph := self object worldIconMorphIn: self owner.
-	iconMorph isImageMorph ifTrue: [
+	(iconMorph isImageMorph and: [self object shouldIconPreserveColors not]) ifTrue: [
 		iconMorph image: (iconMorph image collectColors: [:c |
 			aColor alpha: c alpha])].
 	self addMorph: iconMorph.
