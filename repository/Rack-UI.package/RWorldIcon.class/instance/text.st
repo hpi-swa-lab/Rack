@@ -1,4 +1,4 @@
 displaying
 text
 	
-	^ self object worldIconText
+	^ self object worldIconTextIn: self owner
